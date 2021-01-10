@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: #DAE2E8;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 90%;
+    max-height: 110px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.logo { 
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    float: right;
+}
+.name {
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 32px;
+    font-family: Roboto sans-serif;
+
+}
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none; 
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.parent {
+    background-image: url("../Images/HomePage_Images/background_img.png");
+   background-size: cover;
+   background-position: center;
+   min-width: 100vw;
+   width: 100vw;
+   height: auto;
+   position: absolute;
+   display: flex;
+}
+
+.hero {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    height: 50%;
+}
+
+.about {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    height: 34%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 55%;
+    right: 25%;
+    font-size: 18px;
+    color: #D9E8E1;
+    width: 500px;
+}
+
+.kbyg p { 
+    float: right;
+    padding: 100px;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.DIY {
+    float: right;
+    max-width: 70%;
+}
+
+.DIY p {
+    float: left;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+footer {
+    margin: auto;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+   list-style: none;
+}
